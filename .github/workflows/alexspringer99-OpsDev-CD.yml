@@ -1,1 +1,9 @@
-
+name: CD
+run-name: ${{ github.actor }} is creating a cd
+on:
+  push:
+  workflow_dispatch:
+   
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
