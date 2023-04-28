@@ -10,7 +10,7 @@
   "author": "Dries Swinnen",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "jest": "^27.0.6",
@@ -24,5 +24,16 @@
       "/node_modules/",
       "/public"
     ]
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-alexspringer99.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-alexspringer99/issues"
+  },
+  "homepage": "https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-alexspringer99#readme"
 }

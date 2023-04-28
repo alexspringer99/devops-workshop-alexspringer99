@@ -1,9 +1,12 @@
-FROM node:16
-WORKDIR /usr/src/app
+FROM node:18-alpine
+ENV NODE_ENV=production
+
+WORKDIR /app
+
+COPY ["package.json", "package-lock.json*", "./"]
+
+RUN npm install --production
 
 COPY . .
-RUN npm install
 
-EXPOSE 80
-
-CMD ["npm","start"]
+CMD ["node", "server.js"]
