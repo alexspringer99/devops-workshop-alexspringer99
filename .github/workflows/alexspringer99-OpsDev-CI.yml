@@ -8,4 +8,4 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
-      - run: git pull https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-alexspringer99.git
+      - run: git clone https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-alexspringer99.git
