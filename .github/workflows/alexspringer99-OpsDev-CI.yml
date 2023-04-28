@@ -8,7 +8,7 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
-      - run: git clone https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-alexspringer99.git
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
