@@ -1,7 +1,7 @@
 name: AlexSpringer99 DevOps
 run-name: ${{ github.actor }} is creating a runner
 on:
-  push
+  push:
   workflow_dispatch:
     inputs:
       logLevel:
