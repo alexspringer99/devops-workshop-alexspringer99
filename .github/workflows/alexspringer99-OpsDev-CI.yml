@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: git clone https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-alexspringer99.git
-      - run: npm install -g npm
-      - run: npm i -s express
-      - run: node server.js
-      - run: npm test
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install
