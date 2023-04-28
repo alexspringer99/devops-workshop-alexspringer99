@@ -8,4 +8,4 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
-      - run: git pull https://github.com/alexspringer99/KatalonTestRepo.git
+      - run: git pull
