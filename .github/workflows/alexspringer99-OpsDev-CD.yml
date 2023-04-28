@@ -1,6 +1,5 @@
 name: CD
 run-name: ${{ github.actor }} is creating a cd
-
 on:
   push:
 jobs:
